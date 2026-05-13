@@ -1,0 +1,14 @@
+[package]
+name = "wordpiece"
+version = "0.1.0"
+edition = "2021"
+description = "WordPiece com score de likelihood e prefixo ##."
+default-run = "wp-train"
+
+[dependencies]
+rustc-hash = "2"
+rayon = "1"
+
+[[bin]]
+name = "wp-train"
+path = "src/bin/wp_train.rs"

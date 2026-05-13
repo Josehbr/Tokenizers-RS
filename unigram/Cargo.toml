@@ -1,0 +1,14 @@
+[package]
+name = "unigram"
+version = "0.1.0"
+edition = "2021"
+description = "Unigram Language Model com Viterbi e EM iterativo."
+default-run = "unigram-train"
+
+[dependencies]
+rustc-hash = "2"
+rayon = "1"
+
+[[bin]]
+name = "unigram-train"
+path = "src/bin/unigram_train.rs"

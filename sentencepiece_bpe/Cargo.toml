@@ -1,0 +1,14 @@
+[package]
+name = "sentencepiece_bpe"
+version = "0.1.0"
+edition = "2021"
+description = "SentencePiece-BPE: BPE em frases, sem fronteiras de palavra, com ▁."
+default-run = "sp-train"
+
+[dependencies]
+rustc-hash = "2"
+rayon = "1"
+
+[[bin]]
+name = "sp-train"
+path = "src/bin/sp_train.rs"
