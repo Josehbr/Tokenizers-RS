@@ -2,7 +2,7 @@
 
 Quatro algoritmos clássicos de tokenização por subpalavras implementados em Rust, usando as crates `rustc-hash` e `rayon`.
 
-Este projeto complementa o [`PMI-BPE-Comparison`](../PMI-BPE-Comparison/), que compara o mesmo algoritmo em Python, Rust e C++. Aqui o foco é comparar **algoritmos diferentes** numa mesma linguagem.
+Este projeto complementa o [`Tokenizacao-PMI-BPE`](https://github.com/Josehbr/Tokenizacao-PMI-BPE), que compara o mesmo algoritmo em Python, Rust e C++. Aqui o foco é comparar **algoritmos diferentes** numa mesma linguagem.
 
 ## Algoritmos
 
